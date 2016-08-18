@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/eric/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_d8ca37157ee25f6276a2a5b64b1b4bbca7caa933/classes.dex" />
+    </item>
+    <item
+        jar="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="24dd3370652c8d6cc4c650721c40b59ddf033cc3">
+        <dex dex="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_874ae864f21ac4f14c9ece0a7990a0e6427d1bfb/classes.dex" />
+    </item>
+    <item
+        jar="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_6c4982f451b652f6ee2b6829b48b6211136a5691/classes.dex" />
+    </item>
+    <item
+        jar="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_ad347190b907904c53e2b996cecc83d522837b38/classes.dex" />
+    </item>
+    <item
+        jar="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="186c01a39b5c92fc1fee3a01aeee4ec733c0ae1f">
+        <dex dex="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4e2e23ea4916cd45a5a6f38c6ea6cbf57aa473f9/classes.dex" />
+    </item>
+    <item
+        jar="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_66845040d28ae81aafcd042d0bc53938b97fea9f/classes.dex" />
+    </item>
+    <item
+        jar="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_5e25f12261c0f196336456e7f9f4c74a1b3086f3/classes.dex" />
+    </item>
+    <item
+        jar="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_6aa4d27166c13f32d2fad5562303ea5d902bad7d/classes.dex" />
+    </item>
+    <item
+        jar="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_d443949b2d78c116d1a0fa8905f4529139121de3/classes.dex" />
+    </item>
+    <item
+        jar="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_bf31c6c8162b76f3f8e9fc44c3a0c3f72a5dea83/classes.dex" />
+    </item>
+
+</items>
