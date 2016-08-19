@@ -1,0 +1,2 @@
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/miwok/NumbersActivity$override.class
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
