@@ -1,2 +1,13 @@
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$id$override.class
 CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/miwok/NumbersActivity$override.class
 CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/design/R$id$override.class
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/miwok/R$layout$override.class
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$layout$override.class
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/miwok/R$mipmap$override.class
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/miwok/R$id$override.class
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/miwok/R$string$override.class
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/miwok/R$style$override.class
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/miwok/R$integer$override.class
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/miwok/R$styleable$override.class
+CHANGED,/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/design/R$layout$override.class
