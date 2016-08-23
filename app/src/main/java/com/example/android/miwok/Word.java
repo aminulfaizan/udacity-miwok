@@ -4,6 +4,7 @@ package com.example.android.miwok;
  * Created by eric on 8/19/16.
  */
 public class Word {
+    private int imageResourceID;
     private String defaultTranslation;
     private String miwokTranlation;
 
@@ -17,5 +18,9 @@ public class Word {
     }
     public String getMiwokTranlation() {
         return miwokTranlation;
+    }
+
+    public int getImageResourceID() {
+        return imageResourceID;
     }
 }
