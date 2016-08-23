@@ -4,30 +4,30 @@
     api-level="23"
     density="560dpi"
     format="7"
-    timestamp="2558793265822"
+    timestamp="4473056920510"
     token="-6991447182516441589" >
 
     <task
         name="javac"
-        duration="2775" />
+        duration="199" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="213" />
+        duration="78" />
     <task
         name="verifier"
-        duration="45" />
+        duration="8" />
 
     <artifact
         location="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="14394496545673" >
+    <build timestamp="4473056920510" >
         <artifact
-            location="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-            type="DEX" />
+            location="/home/eric/owncloud/Udacity/android_multiple_screens/ud839_Miwok/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
     </build>
 
 </instant-run>
