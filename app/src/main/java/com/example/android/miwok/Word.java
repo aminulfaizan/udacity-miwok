@@ -13,6 +13,12 @@ public class Word {
         this.miwokTranlation = miwokTranlation;
     }
 
+    public Word(String defaultTranslation, String miwokTranlation, int imageResourceID) {
+        this.defaultTranslation = defaultTranslation;
+        this.miwokTranlation = miwokTranlation;
+        this.imageResourceID = imageResourceID;
+    }
+
     public String getDefaultTranslation() {
         return defaultTranslation;
     }
