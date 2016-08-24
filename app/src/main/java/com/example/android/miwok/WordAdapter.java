@@ -39,7 +39,13 @@ public class WordAdapter extends ArrayAdapter<Word> {
         miwokTranslationTextView.setText(currentWord.getMiwokTranlation());
 
         ImageView imageIcon = (ImageView) listItemView.findViewById(R.id.image);
-        imageIcon.setImageResource(currentWord.getImageResourceID());
+        if (currentWord.hasImage()) {
+            imageIcon.setImageResource(currentWord.getImageResourceID());
+            imageIcon.setVisibility(View.VISIBLE);
+        }
+        else {
+            imageIcon.setVisibility(View.GONE);
+        }
 
         return listItemView;
     }
