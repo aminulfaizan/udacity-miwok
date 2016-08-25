@@ -8,16 +8,32 @@ public class Word {
     private String defaultTranslation;
     private String miwokTranlation;
     private static final int NO_IMAGE_RESOURCE = -1;
+    private int audioResourceID;
 
-    public Word(String defaultTranslation, String miwokTranlation) {
+    /**
+     * Create a new word object
+     * @param defaultTranslation is the English translation of the word
+     * @param miwokTranlation is the Miwok translation of the word
+     * @param audioResourceID holds the resource ID for the audio file associated with the word
+     */
+    public Word(String defaultTranslation, String miwokTranlation, int audioResourceID) {
         this.defaultTranslation = defaultTranslation;
         this.miwokTranlation = miwokTranlation;
+        this.audioResourceID = audioResourceID;
     }
 
-    public Word(String defaultTranslation, String miwokTranlation, int imageResourceID) {
+    /**
+     * Create a new word object
+     * @param defaultTranslation is the English translation of the word
+     * @param miwokTranlation is the Miwok translation of the word
+     * @param imageResourceID holds the resource ID for the associated image file
+     * @param audioResourceID holds the resource ID for the audio file associated with the word
+     */
+    public Word(String defaultTranslation, String miwokTranlation, int imageResourceID, int audioResourceID) {
         this.defaultTranslation = defaultTranslation;
         this.miwokTranlation = miwokTranlation;
         this.imageResourceID = imageResourceID;
+        this.audioResourceID = audioResourceID;
     }
 
     public String getDefaultTranslation() {
@@ -34,5 +50,9 @@ public class Word {
 
     public boolean hasImage() {
         return imageResourceID != NO_IMAGE_RESOURCE;
+    }
+
+    public int getAudioResourceID() {
+        return audioResourceID;
     }
 }
