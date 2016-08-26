@@ -15,6 +15,8 @@
  */
 package com.example.android.miwok;
 
+import android.content.Context;
+import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,6 +33,26 @@ public class PhrasesActivity extends AppCompatActivity {
         @Override
         public void onCompletion(MediaPlayer mp) {
             releaseMediaPlayer();
+        }
+    };
+
+    AudioManager audioManager;
+    AudioManager.OnAudioFocusChangeListener afChangeListener = new AudioManager.OnAudioFocusChangeListener() {
+        @Override
+        public void onAudioFocusChange(int focusChange) {
+            switch(focusChange) {
+                case AudioManager.AUDIOFOCUS_GAIN: // regained focus, so resume playback
+                    mediaPlayer.start();
+                    break;
+                case AudioManager.AUDIOFOCUS_LOSS: // permanently lost focus, so stop playback and free resources
+                    releaseMediaPlayer();
+                    break;
+                case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT: // temporarily lost focus, so pause playback and reset to beginning
+                case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK: // temporarily lost focus, and ducking doesn't make sense for us
+                    mediaPlayer.pause();
+                    mediaPlayer.seekTo(0);
+                    break;
+            }
         }
     };
 
@@ -51,6 +73,9 @@ public class PhrasesActivity extends AppCompatActivity {
         words.add(new Word("Let's go.", "yoowutis", R.raw.phrase_lets_go));
         words.add(new Word("Come here.", "әnni'nem", R.raw.phrase_come_here));
 
+        // get an AudioManager instance from the system
+        audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+
         WordAdapter itemsAdapter = new WordAdapter(this, words, R.color.category_phrases);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(itemsAdapter);
@@ -61,9 +86,14 @@ public class PhrasesActivity extends AppCompatActivity {
                 Word currentWord = words.get(position);
 
                 releaseMediaPlayer();
-                mediaPlayer = MediaPlayer.create(PhrasesActivity.this, currentWord.getAudioResourceID());
-                mediaPlayer.start();
-                mediaPlayer.setOnCompletionListener(completionListener);
+
+                int result = audioManager.requestAudioFocus(afChangeListener, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
+                if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
+                    // We were granted audio focus!
+                    mediaPlayer = MediaPlayer.create(PhrasesActivity.this, currentWord.getAudioResourceID());
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(completionListener);
+                }
             }
         });
     }
@@ -82,6 +112,9 @@ public class PhrasesActivity extends AppCompatActivity {
             // setting the media player to null is an easy way to tell that the media player
             // is not configured to play an audio file at the moment.
             mediaPlayer = null;
+
+            // abandon audio focus
+            audioManager.abandonAudioFocus(afChangeListener);
         }
     }
 
