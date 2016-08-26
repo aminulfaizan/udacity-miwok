@@ -60,6 +60,7 @@ public class FamilyActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Word currentWord = words.get(position);
 
+                releaseMediaPlayer();
                 mediaPlayer = MediaPlayer.create(FamilyActivity.this, currentWord.getAudioResourceID());
                 mediaPlayer.start();
                 mediaPlayer.setOnCompletionListener(completionListener);
